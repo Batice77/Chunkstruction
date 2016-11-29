@@ -1,6 +1,8 @@
 # Chunkstruction
 Dead project on UE4.13 (making construction with blocks by using chunks) reason of fail: adding physics
 
+Needed : Materials from StarterContent and the RuntimeMeshComponent Plugin
+
 Frame : Actor which contains all chunks of the same construction
 
 BlockTypes : a class wich contains each different BlockType
