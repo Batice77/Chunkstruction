@@ -58,7 +58,7 @@ FBlock UChunkComponent::GetBlock(int x, int y, int z)
 	AFrame* frame = Cast<AFrame>(GetOwner());
 	if (frame) 
 	{
-		FVector pos = RelativeLocation / UChunkComponent::blockSize / UChunkComponent::nbBlockPerAxis;
+		FVector pos = RelativeLocation / UChunkComponent::blockSize;
 		return frame->GetBlock(pos.X+x, pos.Y+y, pos.Z+z);
 	}
 	return FBlock();
